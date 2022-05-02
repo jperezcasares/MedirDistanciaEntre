@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/medir_distancia_entre" >
+        <file>mde_icon.png</file>
+    </qresource>
+</RCC>
