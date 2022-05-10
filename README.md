@@ -3,7 +3,7 @@ QGIS Plugin para medir la distancia mínima entre dos entidades.
 
 Plugin para medir la distancia mínima entre dos entidades de forma rápida. La medición se efectúa de forma directa sobre la ventana del mapa identificando los elementos, sin la necesidad de crear capas auxiliares o ejecutar geoprocesos. El plugin admite el cálculo de la distancia indistintamente del tipo de entidad (entre polígonos, de polígono a línea, entre líneas, etc.).
 ## Uso
-Una vez instalada, activar/descativar la herramienta pulsando su icono en la paleta de 'Medidas':
+Una vez instalada, activar/desactivar la herramienta pulsando su icono en la paleta de 'Medidas':
 
 ![Illustration: Meassurement ToolBox](help/Meassurement_ToolBox.png)
 
@@ -27,4 +27,4 @@ La herramienta funciona con tipos no homogéneos de entidades, calculando tambi�
 
 Una vez obtenida una distancia, si se hace clic sobre otra entidad, la herramienta devolverá la distancia mínima entre la primera y esta última entidad seleccionada.
 
-Para defrinir una entidad inicial diferente, reiníciese la herramienta con el botón correspondiente del cuadro de diálogo.
+Para definir una entidad inicial diferente, reiníciese la herramienta con el botón correspondiente del cuadro de diálogo.
