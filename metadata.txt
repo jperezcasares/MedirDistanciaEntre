@@ -23,7 +23,7 @@ hasProcessingProvider=no
 # changelog=
 
 # Tags are comma separated with spaces allowed
-tags=vector, feature, distance, meassurement
+tags=vector, feature, distance, measurement
 
 homepage=https://github.com/jperezcasares/MedirDistanciaEntre/
 category=Vector
