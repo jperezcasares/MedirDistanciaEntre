@@ -10,7 +10,7 @@ version=1.0
 author=José A. Pérez Casares
 email=jperezcasares_at_gmail_com
 
-about=Plugin para medir la distancia mínima entre dos entidades de forma rápida. La mediciópn se efectúa de forma directa sobre la ventana del mapa identificando los elementos, sin la necesidad de crear capas auxiliares o ejecutar geoprocesos. El plugin admite el cálculo de la distancia indistintamente del tipo de entidad (entre polígonos, de polígono a línea, entre líneas, etc.).
+about=Plugin para medir la distancia mínima entre dos entidades de forma rápida. La medición se efectúa de forma directa sobre la ventana del mapa identificando los elementos, sin la necesidad de crear capas auxiliares o ejecutar geoprocesos. El plugin admite el cálculo de la distancia indistintamente del tipo de entidad (entre polígonos, de polígono a línea, entre líneas, etc.).
 
 tracker=https://github.com/jperezcasares/MedirDistanciaEntre/issues
 repository=https://github.com/jperezcasares/MedirDistanciaEntre/
