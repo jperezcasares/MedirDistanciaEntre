@@ -20,7 +20,10 @@ repository=https://github.com/jperezcasares/MedirDistanciaEntre/
 
 hasProcessingProvider=no
 # Uncomment the following line and add your changelog:
-# changelog=
+changelog=1.0 (2022-05):
+		- First release
+	1.0.1 (2024-07):
+		- Update to QGIS 3.28 changes
 
 # Tags are comma separated with spaces allowed
 tags=vector, feature, distance, measurement
@@ -40,7 +43,7 @@ deprecated=False
 # plugin_dependencies=
 
 Category of the plugin: Raster, Vector, Database or Web
-# category=
+category=Vector
 
 # If the plugin can run on QGIS Server.
 server=False

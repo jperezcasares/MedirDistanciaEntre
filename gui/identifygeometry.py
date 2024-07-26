@@ -44,8 +44,8 @@ class IdentifyGeometry(QgsMapToolIdentify):
         QgsMapToolIdentify.__init__(self, canvas)
         #self.setCursor(QCursor(QPixmap(Cursor), 1, 6))
         #self.setMouseTracking(True)
-        self.setCursor(QCursor(Qt.CrossCursor))
-        """
+        #self.setCursor(QCursor(Qt.CrossCursor))
+
         self.cursor = QCursor(QPixmap(["16 16 3 1",
             "      c None",
             ".     c #32CD32",
@@ -66,7 +66,7 @@ class IdentifyGeometry(QgsMapToolIdentify):
             "    ++.....+    ",
             "      ++.++     ",
             "       +.+      "]))
-		"""
+
         
 
     def canvasReleaseEvent(self, mouseEvent):

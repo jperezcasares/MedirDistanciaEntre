@@ -33,7 +33,7 @@ import os.path
 
 from .gui.identifygeometry import IdentifyGeometry
 
-from qgis.core import QgsGeometry
+from qgis.core import QgsGeometry, QgsWkbTypes
 from qgis.gui import QgsRubberBand
 
 
@@ -270,13 +270,13 @@ class MedirDistanciaEntre:
 			if self.first_start == True:
 				self.first_start = False
 
-			self.firstFeatureRubberBand = QgsRubberBand( self.mapCanvas, False )
+			self.firstFeatureRubberBand = QgsRubberBand( self.mapCanvas, QgsWkbTypes.GeometryType.Line )
 			self.firstFeatureRubberBand.setColor(QColor("red"))
 			self.firstFeatureRubberBand.setWidth(3)
-			self.secondFeatureRubberBand = QgsRubberBand( self.mapCanvas, False )
+			self.secondFeatureRubberBand = QgsRubberBand( self.mapCanvas, QgsWkbTypes.GeometryType.Line )
 			self.secondFeatureRubberBand.setColor(QColor("blue"))
 			self.secondFeatureRubberBand.setWidth(3)
-			self.shortestLineRubberBand = QgsRubberBand( self.mapCanvas, False )
+			self.shortestLineRubberBand = QgsRubberBand( self.mapCanvas, QgsWkbTypes.GeometryType.Line )
 			self.shortestLineRubberBand.setColor(QColor("brown"))
 			self.shortestLineRubberBand.setWidth(5)
 			
